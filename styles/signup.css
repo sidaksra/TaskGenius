@@ -1,0 +1,133 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.signupform {
+	box-sizing: border-box;
+}
+
+.signupform {
+	background: rgb(255,175,189);
+	background: linear-gradient(90deg, rgba(255,175,189,1) 0%, rgba(255,195,160,1) 84%);
+	object-fit: cover;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 5em;
+}
+
+#SignUpForm{
+	padding: 2em 0em 0em 0em;
+}
+.signupform .enter p{
+	font-size: 1em;
+    margin-top: 2em;
+    color:#ff004c;
+    border-bottom: 2px solid black;
+	line-height: 40px;
+}
+
+.signupform h1 {
+	/* font-weight: bold; */
+    margin-bottom: 0.5em;
+    font-size: 4em;
+    color: rgb(0 0 0);
+    font-weight: bold;
+    /* font-family: 'Roboto Slab', serif; */
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+}
+.signupform h2 {
+    text-align: center;
+    font-weight: 700;
+    /* font-size: 1.6em; */
+    margin-bottom: 3em;
+    /* margin-top: 1em; */
+}
+.signupform label{
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 1px
+}
+.signupform input{
+	font-size: 16px;
+}
+
+.signupform div p{
+    text-align: center;
+    margin-bottom: 1em;
+	margin-top: 1em;
+    
+}
+.password{
+	margin-bottom: 1em;
+}
+.signupform a {
+	color:#274196;
+	font-size: 1em;
+    font-weight: bold;
+	text-decoration: none;
+}
+.signupform a:hover{
+    border-bottom: 0.1em solid #ff9100;
+}
+
+
+button {
+	border-radius: 0.2em;
+    background-color: black;
+    color: ghostwhite;
+    padding: 1em 4em;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color: ghostwhite;
+	color: black;
+}
+
+
+button a{
+	text-decoration: none;
+	color: white;
+}
+form {
+    background-color: ghostwhite;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	height: 100%;
+	text-align: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.8em;
+    width: 800px;
+    overflow: hidden;
+	max-width: 100%;
+  
+}
+.signupform div{
+	margin-bottom: 2em;
+}
+input {
+    border: none;
+	background-color: #eee;
+	padding: 1em 2em;
+	margin: 0.5em 0;
+    margin-bottom: 0.3em;
+	min-width: 90%;
+}
+.error, .printout {
+	color: red;
+    display: block;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+  
+  .hidden {
+	display: none;
+  }
+

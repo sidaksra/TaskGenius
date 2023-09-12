@@ -1,0 +1,168 @@
+@media screen and (max-width:1100px) {
+    .input-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 35px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .toolmainpage {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .left-container {
+        padding: 1em 2em 4em 2em;
+    
+    }
+    .projectmenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+        background-color: #0A66C2;
+        height: auto;
+    }
+    .listcontenthead {
+        height: 100vh;
+    }
+
+    .tooltip .tooltiptext {
+        top: initial;
+        right: 25px;
+    }
+
+
+
+    /* Login Page */
+    #loginpage{
+        background-color: ghostwhite;
+        box-shadow: none;
+        border-radius: 0;
+        border: none;
+        width: 100%;
+        height: 100vh;
+        padding: 2em 0.5em;
+    }
+    .signupform, .loginform {
+       background-color: white;
+        padding: 0em;
+
+    }
+    .signupform {
+        height: 100vh;
+        
+    }
+    #SignUpForm .enter{
+        padding: 0em 2em 1em 2em;
+        margin-top: 2em;
+    }
+    .signupform input {
+        font-size: small;
+    }
+    .signupform form {
+        background-color: ghostwhite;
+        box-shadow: none;
+        border-radius: 0;
+        border: none;
+        width: 100%;
+    }
+    .signupform h2 {
+        margin-bottom: 0.5em;
+    }
+    #SignUpform{
+        padding: 2em 0em 0em 0em;
+    }
+
+    .signupform .enter p {
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .signupform div {
+        margin-bottom: 1em;
+    
+    
+    }
+
+    .userNav .navigation-right ul li{
+        margin: 0;
+    }
+
+
+    /* Profile Page */
+    .topProfileContent {
+        flex-direction: column;
+    }
+
+    .AccountDiv h1 {
+        font-size: 1.9em;
+        line-height: 2;
+        margin-bottom: 2em;
+    }
+
+    .checkboxToDelete {
+        align-items: stretch;
+    }
+
+    /* Main Index Page */
+    .MainIndex h1 {
+        font-family: inherit;
+        text-align: center;
+        color: black;
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .bg {
+        background-size: 100%;
+    
+    }
+    .MainIndex h2 {
+        font-size: 1.5em;
+        background-color: initial;
+        border-radius: 0em;
+        padding: 10px;
+        margin-top: 50px;
+        color: #192294;
+    }
+    
+    .VerifyDiv h1 {
+        font-size: 30px;
+    }
+    .Verify-Inputs input {
+        padding: 1em;
+        margin: 0.5em 0;
+        margin-bottom: 2em;
+        font-size: small;
+    }
+
+    .VerifyDiv {
+        padding: 3em;
+    }
+    .Verify-Inputs{
+        margin-top: 3em;
+    }
+
+    .bg h1{
+        font-size: 40px;
+        margin-top:-1em;
+
+    }
+    .bg a{
+        color: #000;
+    }
+    .bg{
+        margin-top: 2em;
+    }
+    .button-52{
+        color: #000;
+        font-weight: bold;
+        margin-top: 260px;
+    }
+
+}
+

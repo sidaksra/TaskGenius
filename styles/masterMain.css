@@ -1,0 +1,159 @@
+@import "reset.css";
+
+/*Weblanding page*/
+/*** class and id names of different components
+-------Classes---------
+searchbox -    Contains logo, features, teams, serach box 
+accountnav - Contains login and signup for nav
+***/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
+/*Main body*/
+
+/* body{
+  height: 100vh;
+}
+.MainIndex{
+  padding: 5em;
+  
+}
+
+.MainIndex h1{
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-top: 80px;
+  background-color: rgba(255, 251, 251, 0.88); 
+  font-size: 60px;
+  padding: 1em;
+  line-height: 1.2;
+  font-weight: 600;
+  
+}
+
+.MainIndex h2 {
+  align-self: center;
+  text-align: center;
+  font-size: 2em;
+  background-color: rgba(255, 251, 251, 1);
+  border-radius: 0.5em;
+  padding: 20px;
+  margin-top: 120px;
+  color: lightseagreen;
+ 
+}
+.bg {
+  background: url(../images/wish3.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  flex-wrap:wrap; 
+  height: 100vh;
+}
+
+ */
+
+ /* Apply styles to the body and background image */
+ .bg {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  background-image: url(../images/landing_page.jpg);
+  background-size: contain;
+  background-position: center;
+  margin-top: 15em;
+}
+/* Create a container for the content */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Style the headings */
+.bg h1 {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 70px;
+  margin-top: -250px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.bg h2 {
+  align-self: center;
+  text-align: center;
+  font-size: 18px;
+  color: #626262;
+  margin-top: 10px;
+}
+/* Style any other elements as needed */
+
+.impact-line{
+  animation-name: textanimation;
+  animation-fill-mode: both;
+  animation: textanimation 3s alternate infinite;
+  display: inline-block;
+  transition-timing-function: ease-in;
+  
+}
+
+@keyframes textanimation{
+  
+from {color: #0A66C2;}
+to {color:#ff4d56;}
+}
+
+
+
+/* CSS */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  margin-top: 120px;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  z-index: 1;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  text-transform: uppercase;
+}
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}

@@ -1,0 +1,120 @@
+@import "reset.css";
+
+
+a{
+  text-decoration: none;
+}
+
+.logo{
+  object-fit: cover;
+}
+
+
+/* For Navigation */
+header nav{
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  padding: 22px;
+}
+header {
+  position: sticky;
+  width: 100%;
+  z-index: 99;
+  top:0;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.navigation-right ul{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation-right ul li{
+  margin: 0 7px;
+}
+
+.navigation-right ul li a{
+  cursor: pointer;
+  color: black;
+  text-transform: uppercase;
+}
+
+/* CSS For underline hover effect */
+.underlineHoverEffect {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.25rem;
+  cursor: pointer;
+}
+.underlineHoverEffect::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.35s ease-out;
+}
+.underlineHoverEffect:hover::before {
+  width: 100%;
+}
+/* End of hover effect */
+
+/* End of Navigation Bar */
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  color: black;
+  text-transform: uppercase;
+  background-color: inherit;
+  margin: 0 23px;
+  border: none; 
+  outline: none;
+  padding: 5px 10px;
+}
+.dropdown .fa-user{
+  font-size: 18px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+

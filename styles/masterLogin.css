@@ -1,0 +1,154 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.loginform * {
+	box-sizing: border-box;
+}
+
+.loginform {
+	background: rgb(33,147,176);
+background: linear-gradient(90deg, rgba(33,147,176,1) 0%, rgba(109,213,237,1) 84%);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    padding: 5em;
+
+}
+
+.loginform h1 {
+    /* font-weight: bold; */
+    margin-bottom: 0.5em;
+    font-size: 4em;
+    color: rgb(0 0 0);
+    font-weight: bold;
+    /* font-family: 'Roboto Slab', serif; */
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+}
+
+.loginform h2 {
+	text-align: center;
+    font-weight: 900;
+    font-size: 2.2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#loginpage .enter label{
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+#loginpage .enter{
+	padding: 2em;
+}
+
+#Signup a {
+	color:#274196;
+    font-weight: bold;
+	text-decoration: none;
+}
+#Signup a:hover {
+	color:#d400ff;
+
+}
+
+a:hover{
+    opacity: 0.9;
+}
+.forgot a{
+    margin-top: 0em;
+    color:#707070;
+	font-size: 1em;
+	text-decoration: none;
+}
+.forgot{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+button {
+	border-radius: 0.2em;
+    background-color: black;
+    color: ghostwhite;
+    padding: 1em 4em;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 2em;
+}
+
+button:hover{
+    background-color: ghostwhite;
+	color: black;
+}
+
+  
+
+#loginpage button a{
+	text-decoration: none;
+	color: white;
+}
+form {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	height: 100%;
+	text-align: left;
+}
+
+.enter input {
+    border: none;
+	background-color: #eee;
+	padding: 1em 2em;
+	margin: 0.5em 0;
+    margin-bottom: 2em;
+	width: 100%;
+	font-size: 16px;
+}
+
+#loginpage {
+	background-color: ghostwhite;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.8em;
+    width: 800px;
+    overflow: hidden;
+	max-width: 100%;
+    padding: 2em 0.5em;
+}
+
+.RememberCheckBox {
+    display: flex;
+    /* flex-flow: row nowrap; */
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.RememberCheckBox label {
+	text-transform: initial;
+	color: #707070;
+	font-size: 1em;
+	
+}
+form input[type="checkbox"]{
+	margin-right: 1em;
+}
+.error {
+    color: red;
+    display: block;
+    margin: 0.5em;
+    padding: 0.5em;
+
+}
+.hidden {
+	display: none;
+}
+  
+

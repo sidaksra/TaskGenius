@@ -1,0 +1,135 @@
+@import "reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+.ProfileDiv * {
+	box-sizing: border-box;
+}
+
+.ProfileDiv {
+    padding: 3em;
+}
+
+.ProfileDiv h1 {
+	font-weight: bold;
+	margin-bottom: 0.5em;
+    font-size: 3em;
+}
+.forgot a{
+    text-decoration: none;
+}
+.forgot a:hover{
+    color: #b900de;
+}
+.ProfileDiv h2 {
+	text-align: center;
+    /* font-weight: 900; */
+    font-size: 1.5em;
+    /* margin-bottom: 1em; */
+    margin-top: 0.3em;
+    color: ivory;
+}
+.ProfileDiv h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    text-decoration: none;
+}
+#MyProfile img{
+    border-radius: 50%;
+    display: inline-block;
+    width: 120px;
+    height: 110px;
+    border-bottom: 0.1em solid rgb(82, 78, 78);
+}
+.forgot{
+    margin-top: 1em;
+    border-top: 0.1em solid rgb(167, 165, 165);
+    padding: 1em;
+    text-align: center;
+}
+
+
+#MyProfile label{
+	font-size: 1.2em;
+}
+
+#MyProfile button a{
+	text-decoration: none;
+	color: white;
+}
+.topProfileContent{
+    background-image: linear-gradient(90deg, darkslateblue 0%, #120a43 100%);
+    padding: 3em;
+    min-width: 50%;
+    text-align: center;
+    display: flex;
+    border-radius: 1em;
+    margin-bottom: 3em;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#MyProfile p{
+    margin-top: 1em;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    color: floralwhite;
+    
+}
+.updateRecord{
+    width: 100%;
+    padding: 1.5em;
+}
+.updateRecord>*{
+    margin-bottom: 3em;
+    border-top: 2px solid #e7e7e7;
+}
+
+.updateRecord button{
+    background-color: black;
+    color: ghostwhite;
+    padding: 1em 2em;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 0.5em 0;
+    text-transform: uppercase;
+}
+.updateRecord button:hover{
+    background-color: ghostwhite;
+    color: black;
+}
+#MyProfile {
+    background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 100%); 
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    min-width: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+.error {
+    color: red;
+    font-size: 1.2em;
+    display: block;
+    margin: 0.5em;
+    padding: 1em;
+}
+  
+.hidden {
+	display: none;
+}
+  
+
+input {
+    border: none;
+	background-color: #eee;
+	padding: 1em 2em;
+	margin: 0.5em 0;
+    margin-bottom: 2em;
+	width: 100%;
+}
+label{
+	font-size: 1.2em;
+}

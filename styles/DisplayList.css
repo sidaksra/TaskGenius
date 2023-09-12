@@ -1,0 +1,59 @@
+@import "reset.css";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.display-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.display-list h1 {
+    font-size: 60px;
+    font-family: serif;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Apply these styles to your table */
+.display-list table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    display: table;
+    table-layout: fixed; /* Added for the table to occupy 100% width */
+    text-align: center;
+    margin-top: 3em;
+}
+
+/* Table header */
+.display-list th {
+    background-color: #e2e2e2;
+    color: mediumvioletred;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Table body */
+.display-list td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Alternating row background color */
+.display-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on rows */
+.display-list tr:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s;
+}
